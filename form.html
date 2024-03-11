@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title"><h1>Food Order</h1></div>
+    <div class="container">
+        <div class="formBox">
+            <form>
+                <p>Your Name</p>
+                <input type="text" placeholder="Customer Name" id="text" required>
+                <p>Phone Number</p>
+                <input type="Text" placeholder="Your Number">
+                <p>Items</p>
+                <input type="text" placeholder="Food Items">
+                <br>
+                <br>
+                <br>
+                <button>Submit</button>
+            </form>
+        </div>
+    </div>
+    <body background="E:\Mini_Project\pexels-ella-olsson-1640773.jpg"></body>
+    <script>
+    let sign = document.querySelector('button');
+        sign.addEventListener('click',showMsg);
+
+        function showMsg(){
+        alert("Your order is Placed");
+        }
+    </script>
+</body>
+</html>
